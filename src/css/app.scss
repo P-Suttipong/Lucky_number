@@ -1,0 +1,18 @@
+// app global css in SCSS form
+
+@font-face {
+  font-family: palette;
+  src: url(../assets/font/FCPaletteColor.ttf);
+}
+
+.text_with_2px_border {
+  text-shadow: 
+        /* first layer at 1px */ -1px -1px 0px #FFF,
+    0px -1px 0px #FFF, 1px -1px 0px #FFF, -1px 0px 0px #FFF, 1px 0px 0px #FFF,
+    -1px 1px 0px #FFF, 0px 1px 0px #FFF, 1px 1px 0px #FFF,
+    /* second layer at 2px */ -2px -2px 0px #FFF, -1px -2px 0px #FFF,
+    0px -2px 0px #FFF, 1px -2px 0px #FFF, 2px -2px 0px #FFF, 2px -1px 0px #FFF,
+    2px 0px 0px #FFF, 2px 1px 0px #FFF, 2px 2px 0px #FFF, 1px 2px 0px #FFF,
+    0px 2px 0px #FFF, -1px 2px 0px #FFF, -2px 2px 0px #FFF, -2px 1px 0px #FFF,
+    -2px 0px 0px #FFF, -2px -1px 0px #FFF;
+}
